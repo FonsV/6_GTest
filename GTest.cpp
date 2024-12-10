@@ -2,7 +2,8 @@
 
 // Code under test
 int Add(int a, int b) {
-    return a + b;
+    //return a + b;
+    return a + abs(b)
 }
 
 // Test cases
